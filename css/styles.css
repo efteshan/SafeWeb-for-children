@@ -1,29 +1,24 @@
-﻿/* I am starting off with some CSS variables to keep my colors and settings consistent throughout the site. 
-   I decided to go with a deep, dark theme paired with neon accents because it makes the site feel modern, cool, and a bit techy. */
+﻿
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
 
 :root {
-  /* My core color palette - going for that sleek dark mode vibe */
+  
   --bg-dark: #0b0f19;
   --bg-card: rgba(20, 26, 40, 0.7);
   --text-main: #e2e8f0;
   --text-muted: #94a3b8;
-  
-  /* My neon accents to make important things pop out */
+
   --accent-blue: #38bdf8;
   --accent-purple: #c084fc;
   --accent-pink: #f472b6;
-  
-  /* Setting up my typography. Space Grotesk looks really futuristic! */
+
   --font-main: 'Space Grotesk', sans-serif;
-  
-  /* Spacing and sizing - I'm increasing the max-width to make the website wider and eliminate large gaps on the sides */
-  --max-width: 1400px; /* Expanding the layout to make it wider */
+
+  --max-width: 1400px; 
   --radius: 12px;
   --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* My Light Mode Theme Variable Overrides! I'm making it a soothing grey-white without changing the cool gradients */
 [data-theme="light"] {
   --bg-dark: #f1f5f9;
   --bg-card: rgba(255, 255, 255, 0.7);
@@ -31,7 +26,7 @@
   --text-muted: #475569;
 }
 [data-theme="light"] h1, [data-theme="light"] h2, [data-theme="light"] h3, [data-theme="light"] h4 { color: #1e293b; }
-[data-theme="light"] h1 { -webkit-text-fill-color: transparent; } /* Keep gradient text! */
+[data-theme="light"] h1 { -webkit-text-fill-color: transparent; } 
 [data-theme="light"] .stat-number { color: transparent; -webkit-text-stroke: 2px var(--accent-purple); text-shadow: none; }
 [data-theme="light"] .stats-bar { background: rgba(0,0,0,0.05); border-color: rgba(0,0,0,0.1); }
 [data-theme="light"] .site-header.scrolled { background: rgba(241, 245, 249, 0.85); border-color: rgba(0,0,0,0.1); }
@@ -41,15 +36,14 @@
 [data-theme="light"] .site-footer { background: #e2e8f0; border-top: 1px solid rgba(0,0,0,0.1); }
 [data-theme="light"] .footer-heading { color: #1e293b; }
 
-/* My custom logos for Light & Dark mode */
-.logo-dark { display: block; max-height: 50px; width: auto; object-fit: contain; } /* Adjusted to be slightly smaller than the massive version but still easy to read! */
-.logo-light { display: none; max-height: 50px; width: auto; object-fit: contain; }
-
+  .logo-dark { display: block; max-height: 50px; width: auto; object-fit: contain; transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1); } 
+  .logo-light { display: none; max-height: 50px; width: auto; object-fit: contain; transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1); }
+  
+  .brand:hover .logo-dark, .brand:hover .logo-light { transform: scale(1.6); }
 [data-theme="light"] .logo-dark { display: none !important; }
 [data-theme="light"] .logo-light { display: block !important; }
-[data-theme="light"] .brand-text, [data-theme="light"] .brand-shield { color: var(--text-main); } /* Ensure text is visible if they don't use logos */
+[data-theme="light"] .brand-text, [data-theme="light"] .brand-shield { color: var(--text-main); } 
 
-/* Resetting default margins so I have full control over the layout */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -61,7 +55,6 @@ html, body { overflow-x: hidden; width: 100%; max-width: 100%; margin: 0; paddin
   font-size: 14px;
 }
 
-/* My main body styling. I want it to look like a vast, deep digital space. */
 body {  width: 100%; max-width: 100%; 
   font-family: var(--font-main);
   background-color: var(--bg-dark);
@@ -71,7 +64,6 @@ body {  width: 100%; max-width: 100%;
   position: relative;
 }
 
-/* I'm adding a subtle glowing mesh gradient in the background to make it feel alive */
 body::before {
   content: '';
   position: fixed;
@@ -82,7 +74,6 @@ body::before {
   pointer-events: none;
 }
 
-/* Typography styles to make my headers look bold and sharp */
 h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.2;
@@ -104,7 +95,6 @@ p { margin-bottom: 1.5rem; color: var(--text-muted); font-size: 1.1rem; }
 a { color: var(--accent-blue); text-decoration: none; transition: var(--transition); }
 a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0.5); }
 
-/* Layout containers. I want everything horizontally centered and not too wide. */
 .container {
   width: 100%;
   max-width: var(--max-width);
@@ -112,15 +102,14 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   padding: 0 1.5rem;
 }
 
-.page-main { padding-top: 110px; min-height: 80vh; } /* Pushed top down a bit to clear the new bigger header logo */
-.section { padding: 3rem 0; position: relative; } /* Reduced section padding further to completely eliminate giant empty spacing */
-.section-heading { text-align: center; margin-bottom: 2rem; } /* Keeps titles comfortably close to their content */
+.page-main { padding-top: 110px; min-height: 80vh; } 
+.section { padding: 3rem 0; position: relative; } 
+.section-heading { text-align: center; margin-bottom: 2rem; } 
 
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 3rem; } /* Expanded the minmax width to prefer horizontal dominant boxes */
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; } /* Forces 3 items into one horizontal lane until mobile sizes */
-.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; } /* Created a slick 4-column grid for things like the authors section! */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 3rem; } 
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; } 
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; } 
 
-/* My custom buttons! I added a glowing gradient hover effect that I think is super cool. */
 .btn {
   display: inline-block;
   padding: 1rem 2.5rem;
@@ -162,29 +151,26 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
 }
 .btn-block { width: 100%; text-align: center; }
 
-/* These cards use a 'glassmorphism' effect to look like frosted glass floating in space */
 .card, .content-card, .tips-card {
   background: var(--bg-card);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: var(--radius);
-  padding: 1.5rem 2.5rem; /* Reduced height padding, focusing on width instead! */
+  padding: 1.5rem 2.5rem; 
   transition: var(--transition);
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   position: relative;
-  display: flex; /* By setting display to flex and flex-direction to column, I can control spacing better */
+  display: flex; 
   flex-direction: column;
-  justify-content: flex-start; /* Ensure items start at the top */
+  justify-content: flex-start; 
 }
 
-/* My standard small square feature cards! I'll completely center these so the custom icons look amazing at the top-center */
 .card {
   align-items: center; 
   text-align: center; 
 }
 
-/* My long, detail-heavy content cards should remain left-aligned so the text and bullet lists stay readable! */
 .tips-card, .content-card {
   align-items: flex-start;
   text-align: left;
@@ -203,17 +189,15 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
 }
 
-/* My custom feature images to replace the old emojis! */
 .feature-img-dark { display: block; height: 60px; width: auto; margin: 0 auto 1.5rem auto; object-fit: contain; }
 .feature-img-light { display: none; height: 60px; width: auto; margin: 0 auto 1.5rem auto; object-fit: contain; }
 [data-theme="light"] .feature-img-dark { display: none !important; }
 [data-theme="light"] .feature-img-light { display: block !important; }
 
-/* My sleek, sticky navigation header. I added a blur effect to the background when scrolling. */
 .site-header {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 80px; /* Reduced header height a bit to fit the perfectly sized logo */
+  height: 80px; 
   display: flex;
   align-items: center;
   z-index: 1000;
@@ -224,7 +208,7 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   background: rgba(11, 15, 25, 0.85);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255,255,255,0.05);
-  height: 60px; /* Shrinks cleanly when you scroll */
+  height: 60px; 
 }
 
 .header-inner { display: flex; justify-content: space-between; align-items: center; width:100%; max-width:var(--max-width); margin:0 auto; padding:0 2rem;}
@@ -236,14 +220,14 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   white-space: nowrap;
 }
 
-.nav-menu { display: flex; gap: 1.25rem; flex-wrap: nowrap; justify-content: flex-end; align-items: center; overflow: hidden; /* I'm making sure these items don't wrap to the next line and fit nicely */ }
+.nav-menu { display: flex; gap: 1.25rem; flex-wrap: nowrap; justify-content: flex-end; align-items: center; overflow: hidden;  }
 .nav-link {
   color: var(--text-muted);
   font-weight: 600;
   padding: 0.6rem 1.2rem; font-size: 1.15rem;
   border-radius: 8px;
   position: relative;
-  white-space: nowrap; /* Keep my "Safety Tips" text on one single line! */
+  white-space: nowrap; 
 }
 .nav-link:hover, .nav-link.is-active {
   color: #fff;
@@ -255,7 +239,6 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   box-shadow: 0 0 10px var(--accent-blue);
 }
 
-/* Full screen pages for homepage! */
 .scroll-page {
   min-height: 100vh;
   display: flex;
@@ -264,20 +247,18 @@ a:hover { color: var(--accent-pink); text-shadow: 0 0 10px rgba(244, 114, 182, 0
   align-items: center;
   width: 100%;
 }
-.scroll-page--footer { justify-content: center; gap: 0; } /* Centers the CTA and Footer together as a single unified page */
+.scroll-page--footer { justify-content: center; gap: 0; } 
 
-/* Fixing checklist spacing */
 ul.checklist {
-  list-style: none; /* Hide default bullets */
-  margin: 1.5rem 0 3.5rem 0; /* Huge gap below the checklist before the button! */
+  list-style: none; 
+  margin: 1.5rem 0 3.5rem 0; 
   padding: 0;
 }
 ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
 .check { color: var(--accent-pink); font-weight: bold; margin-right: 12px; }
 
-/* The hero section. I want it to be massive and immersive. */
 .hero {
-  padding: 9rem 0 3rem; /* Tightened up the top and bottom padding slightly so the huge gaps are eliminated! */
+  padding: 9rem 0 3rem; 
   text-align: center;
   position: relative;
 }
@@ -285,12 +266,11 @@ ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
 .hero-subtitle {
   font-size: 1.4rem;
   max-width: 800px;
-  margin: 0 auto 2rem; /* Reduced subtitle bottom margin */
+  margin: 0 auto 2rem; 
 }
 
 .hero-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 1.5rem; }
 
-/* The stat bar. I stylized the numbers to look like glowing HUD displays. */
 .stats-bar {
   background: rgba(0,0,0,0.3);
   border-top: 1px solid rgba(255,255,255,0.05);
@@ -300,9 +280,9 @@ ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
 }
 
 .stats-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
-.stat { flex: 1 1 0; text-align: center; display: flex; flex-direction: column; align-items: center; } /* Centering the text right at the top so it doesn't look messy */
+.stat { flex: 1 1 0; text-align: center; display: flex; flex-direction: column; align-items: center; } 
 .stat-number {
-  font-size: clamp(2rem, 4vw, 4rem); /* Added clamp so it scales fluidly when zooming or resizing */
+  font-size: clamp(2rem, 4vw, 4rem); 
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1px var(--accent-purple);
@@ -311,7 +291,6 @@ ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
 }
 .stat-label { font-size: 1.1rem; color: var(--text-main); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 
-/* Images. I added rounded corners and a nice shadow to seamlessly blend them. */
 .about-figure {
   border-radius: var(--radius);
   overflow: hidden;
@@ -327,7 +306,6 @@ ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
 }
 .about-figure:hover img { transform: scale(1.05); }
 
-/* Beautiful dark-themed forms for my contact page */
 .field { margin-bottom: 1.1rem; }
 .field label { display: block; margin-bottom: 0.3rem; color: var(--text-main); font-weight: 600; }
 .field input, .field textarea {
@@ -348,20 +326,16 @@ ul.checklist li { margin-bottom: 0.8rem; font-size: 1.1rem; }
   background: rgba(0,0,0,0.4);
 }
 
-/* My Tables for formatting the Data */
 table { width: 100%; border-collapse: collapse; margin: 2rem 0; }
 th, td { padding: 1.2rem; border-bottom: 1px solid rgba(255,255,255,0.05); text-align: left; }
 th { color: var(--accent-blue); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
 tr:hover { background: rgba(56, 189, 248, 0.05); }
 
-/* Overline tags for section focus */
 .overline { color: var(--accent-pink); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; }
-.overline--danger { color: var(--accent-blue); } /* I decided blue looks cooler than danger red in this techy layout */
+.overline--danger { color: var(--accent-blue); } 
 
-/* Utility list */
 ul { list-style-position: inside; }
 
-/* Footer. Kept it minimal but slick. */
 .site-footer {
   background: #06080d;
   padding: 5rem 0 2rem;
@@ -374,13 +348,11 @@ ul { list-style-position: inside; }
 .footer-divider { height: 1px; background: rgba(255,255,255,0.05); margin-bottom: 2rem; }
 .footer-meta { text-align: center; color: var(--text-muted); font-size: 0.9rem; }
 
-/* Let's configure a custom scrollbar because the default one is ugly! */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-dark); }
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent-purple); }
 
-/* Animation classes for my Javascript scroll observer */
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -391,7 +363,6 @@ ul { list-style-position: inside; }
   transform: translateY(0);
 }
 
-/* Call to action banners */
 .cta-banner {
     padding: 6rem 0;
     text-align: center;
@@ -399,21 +370,19 @@ ul { list-style-position: inside; }
     border-top: 1px solid rgba(192, 132, 252, 0.2);
 }
 
-/* Sizing my biography and contact pages so they fit cleanly on one screen without scrolling */
-.profile-card { padding: 1.5rem; text-align: center; } /* Removing max-width so it flexibly fits my new grid-4! */
-.profile-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; display: block; border: 3px solid var(--accent-blue); } /* Made photo slightly smaller to fit 4 on screen! */
+.profile-card { padding: 1.5rem; text-align: center; } 
+.profile-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; display: block; border: 3px solid var(--accent-blue); } 
 .profile-card p { font-size: 0.9rem; margin-bottom: 0.5rem; }
 .profile-card h2 { font-size: 1.2rem; }
-.form-card { max-width: 100%; width: 1000px; margin: 0 auto; padding: 2rem; align-items: stretch; text-align: left; } /* Overriding .card defaults so form fields reach full width properly */
+.form-card { max-width: 100%; width: 1000px; margin: 0 auto; padding: 2rem; align-items: stretch; text-align: left; } 
 
-/* Mobile adjustments so everything looks perfect on phones */
 .nav-toggle-input, .nav-toggle-label { display: none; }
 @media (max-width: 1150px) {
   .hero { padding: 6rem 0 2rem; } .page-main { padding-top: 90px; }
   .stats-row { flex-direction: column; text-align: center; }
   .grid-2 { grid-template-columns: 1fr; }
-  .grid-3 { grid-template-columns: 1fr; } /* Ensuring my grids collapse to a single column on small screens */
-  .grid-4 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); } /* 4-grid collapses smoothly too! */
+  .grid-3 { grid-template-columns: 1fr; } 
+  .grid-4 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); } 
   
   .nav-toggle-label {
     display: block;
@@ -424,7 +393,7 @@ ul { list-style-position: inside; }
   .nav-menu {
     display: none;
     position: absolute;
-    top: 80px; left: 0; right: 0; /* Updated to match new header size! */
+    top: 80px; left: 0; right: 0; 
     background: var(--bg-card);
     backdrop-filter: blur(15px);
     flex-direction: column;
@@ -435,7 +404,6 @@ ul { list-style-position: inside; }
     display: flex;
   }
 }
-
 
 .danger-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }
 .danger-grid > * { flex: 1 1 min(100%, 400px); max-width: 550px; box-sizing: border-box; }
@@ -475,20 +443,12 @@ ul { list-style-position: inside; }
 
 .nav-menu { max-width: 100%; }
 
-
-
-
-
 .header-inner .btn { flex-shrink: 0; }
 
 .header-inner .brand { flex-shrink: 0; }
 
-
 @media (max-width: 1450px) { .nav-link { font-size: 1rem; padding: 0.5rem 0.8rem !important; } .brand { font-size: 1.35rem !important; } .nav-menu { gap: 0.8rem !important; } }
 
-
-
-/* Injecting dynamic behavior settings for hero-shape canvas */
 .hero-shape { 
   position: absolute; top: 0; left: 0; right: 0; bottom: -120px; z-index: -1; pointer-events: none; overflow: hidden; 
   background: radial-gradient(ellipse at center, rgba(0,0,0,0) 30%, var(--bg-dark) 100%);
@@ -496,7 +456,6 @@ ul { list-style-position: inside; }
   mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
 }
 
-/* Compacting the About This Research section to fit completely within screen viewport at 100% zoom */
 .stack h2 { font-size: 2.2rem; margin-bottom: 0.8rem; }
 .stack .lead { font-size: 1.1rem; margin-bottom: 0.8rem; }
 .stack p { font-size: 0.95rem; margin-bottom: 0.8rem; line-height: 1.5; }
@@ -505,11 +464,6 @@ ul { list-style-position: inside; }
 .section--alt { padding: 3rem 0; }
 .about-figure { max-height: 480px; display: flex; align-items: center; justify-content: center; } 
 .about-figure img { object-fit: cover; max-height: 100%; border-radius: var(--radius); }
-
-
-/* ========================================================= */
-/* ELITE DAY/NIGHT SLIDEBAR (Production Ready)               */
-/* ========================================================= */
 
 .elite-slidebar {
   display: inline-flex;
@@ -532,13 +486,12 @@ ul { list-style-position: inside; }
     0 0 0 3px var(--accent-blue);
 }
 
-/* Core Track Structure */
 .slidebar-track {
   width: 90px;
   height: 40px;
   border-radius: 40px;
   position: relative;
-  /* Left is warm daybreak, Right is rich midnight */
+  
   background: linear-gradient(to right, #ffb347 0%, #ff7b54 30%, #2b5876 70%, #4e4376 100%);
   box-shadow: 
     inset 0 3px 8px rgba(0,0,0,0.6), 
@@ -550,7 +503,6 @@ ul { list-style-position: inside; }
   align-items: center;
 }
 
-/* Recessed Placeholders */
 .icon-placeholder {
   position: absolute;
   width: 34px;
@@ -585,7 +537,6 @@ ul { list-style-position: inside; }
   transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Intelligent fade for active icon when sliding */
 .elite-slidebar input:checked ~ .slidebar-track .moon-placeholder-target .injected-icon {
   opacity: 0.3;
   transform: scale(0.9);
@@ -595,7 +546,6 @@ ul { list-style-position: inside; }
   transform: scale(0.9);
 }
 
-/* The Sliding Thumb (Premium Metal) */
 .slidebar-thumb {
   position: absolute;
   top: 4px;
@@ -634,8 +584,6 @@ ul { list-style-position: inside; }
   box-shadow: inset 0 1.5px 2px rgba(0,0,0,0.4), 0 1px 1px rgba(255,255,255,0.8);
 }
 
-/* Exact positional math: Track(90) - PaddingRight(4) - Thumb(30) = 56 right pos.
-   Thumb starts left(4), so translate needs to be 52px */
 .elite-slidebar input:checked ~ .slidebar-track .slidebar-thumb {
   transform: translateX(52px);
   background: radial-gradient(circle at 50% 10%, #ffffff 0%, #fdf5e6 40%, #dcd1c4 100%);
@@ -646,10 +594,6 @@ ul { list-style-position: inside; }
     inset 0 -2px 3px rgba(0,0,0,0.1),    
     inset 0 0 1px 1px rgba(255,255,255,0.8);
 }
-
-/* ========================================================= */
-/* MODERN SLIDEBAR (ICONS INSIDE THUMB)                      */
-/* ========================================================= */
 
 .modern-theme-slider {
   display: inline-flex;
@@ -671,14 +615,13 @@ ul { list-style-position: inside; }
     0 0 0 3px var(--accent-blue);
 }
 
-/* Try to keep it box-sizing predictable */
 .slider-track {
   box-sizing: border-box;
   width: 52px;
   height: 28px;
   border-radius: 28px;
   position: relative;
-  background: rgba(20, 26, 40, 0.9); /* Deep dark background */
+  background: rgba(20, 26, 40, 0.9); 
   border: 1px solid rgba(255,255,255,0.08);
   box-shadow: inset 0 2px 6px rgba(0,0,0,0.4);
   transition: background 0.5s ease, border-color 0.5s ease;
@@ -686,14 +629,12 @@ ul { list-style-position: inside; }
   align-items: center;
 }
 
-/* Light mode track variation */
 [data-theme="light"] .slider-track {
   background: rgba(0,0,0,0.06);
   border-color: rgba(0,0,0,0.1);
   box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* The Sliding Thumb */
 .slider-thumb {
   position: absolute;
   top: 1px;
@@ -705,20 +646,17 @@ ul { list-style-position: inside; }
   box-shadow: 
     0 2px 5px rgba(0,0,0,0.3),
     inset 0 -2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* Beautiful springy bounce */
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); 
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
-/* When Checked (Light Mode) -> Slide Right */
-/* Track Width (52) - Left padding (3) - Thumb width (22) - Right padding (3) = 24px transform distance */
 .modern-theme-slider input:checked ~ .slider-track .slider-thumb {
   transform: translateX(24px);
 }
 
-/* Icons inside the thumb */
 .thumb-icon {
   position: absolute;
   width: 14px;
@@ -727,7 +665,6 @@ ul { list-style-position: inside; }
   transition: opacity 0.4s ease, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Default state: Dark mode active, showing moon */
 .moon-icon {
   opacity: 1;
   transform: rotate(0deg) scale(1);
@@ -737,7 +674,6 @@ ul { list-style-position: inside; }
   transform: rotate(-90deg) scale(0.5);
 }
 
-/* Swapping state: Light mode active, showing sun */
 .modern-theme-slider input:checked ~ .slider-track .slider-thumb .moon-icon {
   opacity: 0;
   transform: rotate(90deg) scale(0.5);
@@ -746,11 +682,6 @@ ul { list-style-position: inside; }
   opacity: 1;
   transform: rotate(0deg) scale(1);
 }
-
-
-/* ========================================================= */
-/* INTERACTIVE STAR RATING                                   */
-/* ========================================================= */
 
 .star-rating {
   display: inline-flex;
@@ -765,7 +696,7 @@ ul { list-style-position: inside; }
 .star-rating label {
   cursor: pointer;
   font-size: 2.5rem;
-  color: rgba(255,255,255,0.2); /* Base gray/translucent for dark mode */
+  color: rgba(255,255,255,0.2); 
   margin-right: 0.2rem;
   transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -775,15 +706,13 @@ ul { list-style-position: inside; }
 }
 
 [data-theme="light"] .star-rating label {
-  color: #cbd5e1; /* Lighter base for light mode */
+  color: #cbd5e1; 
 }
 
-/* Checked state */
 .star-rating input:checked ~ label {
   color: #fbbf24;
 }
 
-/* Hover container: Override checked states to reset all to gray */
 .star-rating:hover label {
   color: rgba(255,255,255,0.2) !important;
 }
@@ -791,7 +720,6 @@ ul { list-style-position: inside; }
   color: #cbd5e1 !important;
 }
 
-/* Hover specific star: Highlight hovered and previous stars */
 .star-rating label:hover,
 .star-rating label:hover ~ label {
   color: #fbbf24 !important;
