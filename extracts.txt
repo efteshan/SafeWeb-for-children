@@ -1,0 +1,193 @@
+== introduction.html ==
+<p class="lead">
+              This page introduces the World Wide Web, explains why children face unique risks today, and frames the
+              skills that help them stay safer.
+            </p>
+<p>
+                The World Wide Web was developed to make information easily shareable across computers. Proposed by Tim
+                Berners-Lee, it grew rapidly into a global network of websites, services, and connected experiences.
+              </p>
+<p>
+                Today, the web powers learning, communication, entertainment, and community. This often happens directly from the devices that
+                children use every day.
+              </p>
+<p>
+                Access to the internet is increasingly common at younger ages. Alongside this growth comes changing
+                patterns of online behavior, including higher exposure to harmful content and peer-to-peer conflict.
+              </p>
+<p>
+                Screen time data also suggests that many children spend more hours online than their adults realize,
+                which increases the need for active guidance and age-appropriate safeguards.
+              </p>
+<p>
+                Todays children are often born connected. They learn platforms quickly and explore social spaces with
+                little experience of privacy risks, manipulation tactics, and online permanence.
+              </p>
+<p>
+                This creates a different challenge than earlier eras: safety is not only about avoiding danger, but also
+                about building judgment and resilience.
+              </p>
+<p>
+                Internet safety affects mental health, education, and social development. Harmful interactions can shape
+                how children feel about themselves, how they concentrate, and how they trust others.
+              </p>
+<p>
+                When children understand boundaries and adults use effective controls, the web becomes a place where curiosity
+                can thrive safely.
+              </p>
+<p>
+                Safety online is not about fear. It is about informed choices, clear boundaries, and the skills to respond
+                when something feels wrong.
+              </p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== discussion.html ==
+<p style="text-align: center;">
+                Harassment, humiliation, and targeted messages can quickly escalate, damaging confidence and
+                increasing stress.
+              </p>
+<p style="text-align: center;">
+                Manipulative contact can appear friendly at first. Children may not recognize grooming patterns or
+                exploitation intent.
+              </p>
+<p style="text-align: center;">
+                Exposure to adult themes or harmful material can shape perceptions and overwhelm age-appropriate
+                understanding.
+              </p>
+<p style="text-align: center;">
+                  Oversharing, weak settings, and data tracking can place children at risk by revealing identity,
+                  location, or personal preferences.
+                </p>
+<p style="text-align: center;">
+                  Excessive time online can disrupt sleep, attention, and offline relationships. This often happens because platforms are specifically designed to capture prolonged engagement.
+                </p>
+<p class="lead">
+              The web is not only a source of risk. With guidance, it becomes a learning engine that strengthens knowledge,
+              creativity, and belonging.
+            </p>
+<p style="text-align: center;">Access to learning resources helps children explore concepts, practice skills, and broaden horizons.</p>
+<p style="text-align: center;">
+                Children can connect with communities beyond their neighborhoods, building curiosity and communication
+                skills.
+              </p>
+<p style="text-align: center;">
+                Platforms for art, storytelling, and collaborative projects help children experiment safely and develop
+                confidence.
+              </p>
+<p class="lead">
+              Different tools protect in different ways. The best approach combines controls with conversation and
+              consistent family rules.
+            </p>
+<p class="lead">
+              Regulations help require age-appropriate safeguards and limit the ways data can be collected from minors.
+            </p>
+<p>
+                The Children's Online Privacy Protection Act restricts how websites collect data from children under 13 and
+                requires parental consent for certain data practices.
+              </p>
+<p>
+                GDPR principles influence how organizations process children's personal data, emphasizing lawful basis, data
+                minimization, and child-sensitive protections.
+              </p>
+<p class="lead">
+              Case study patterns show what works when adults respond quickly, educate children, and adjust platform settings.
+            </p>
+<p class="narrative">
+                A reporting workflow and supportive counseling helped students stop repeating harmful exchanges.
+                The community combined incident review with practical lessons on respectful communication.
+              </p>
+<p class="narrative">
+                A consistent family approach used device-level controls while teaching children to recognize manipulation
+                and keep conversations respectful and safe.
+              </p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== statistics.html ==
+<p class="lead">
+              These figures synthesize typical patterns reported across multiple youth safety studies, helping clarify where
+              exposure increases and how different risks vary by age.
+            </p>
+<p class="lead">
+                Cyberbullying and inappropriate content generally rise through early adolescence, reflecting increased social
+                activity and more complex online interactions as children gain independence.
+              </p>
+<p class="lead">
+                Screen addiction also remains high across age groups, suggesting the need for consistent routines, balanced
+                device use, and supportive digital literacy that reinforces healthy habits.
+              </p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== safety-tips.html ==
+<p class="lead">
+              Premium guidance for kids, parents, and schools. These tips are carefully designed to reduce risk while supporting confident learning and
+              communication.
+            </p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== conclusion.html ==
+<p class="lead">A balanced verdict, followed by practical next steps for families, educators, and communities.</p>
+<p class="lead">
+              Children need supportive structure: education that builds judgment, tools that reduce exposure, and policies
+              that protect privacy.
+            </p>
+<p>
+                When children understand safe choices and warning signs, they can respond early instead of hiding problems.
+              </p>
+<p>
+                Filtering, reporting paths, and privacy settings lower risk while keeping children engaged in positive online activities.
+              </p>
+<p>
+                Regulations support safer platform design, clearer consent standards, and stronger protections for minors.
+              </p>
+<p class="lead verdict-text">
+              Not fully. The web contains real risks, but it can be made significantly safer through education, practical
+              tools, and regulation that prioritizes childrens privacy and wellbeing.
+            </p>
+<p class="lead">Forward-looking actions that translate research into everyday protection.</p>
+<p>
+              When adults guide with clarity and kindness, children can thoughtfully explore the internet with confidence. When something
+              feels off, they know how to respond.
+            </p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== resources.html ==
+<p class="lead">All sources follow IEEE citation format</p>
+<p class="lead">Practical guidance from leading child safety and education initiatives worldwide.</p>
+<p>Child rights, protection programs, and online safety resources for families and educators.</p>
+<p>Reporting channels and guidance focused on harmful online content and safer internet practices.</p>
+<p>Reviews, family guidance, and research-backed digital literacy materials.</p>
+<p>Support, safeguarding education, and practical advice for protecting children online.</p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== biography.html ==
+<p class="lead">A researcher-focused perspective on protecting children online through education and design.</p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+== contact.html ==
+<p class="lead" style="margin-bottom: 0;">Share your thoughts about internet safety for children</p>
+<p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+<p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>

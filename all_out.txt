@@ -1,0 +1,1680 @@
+--- introduction.html ---
+<!doctype html>
+<!-- SafeWeb for Children  Introduction -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | Introduction to Internet Safety</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link is-active">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Intro Heading -->
+      <section class="section section--white" aria-labelledby="intro-heading" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">GETTING STARTED</p>
+            <h1 id="intro-heading">Introduction to Internet Safety</h1>
+            <p class="lead">
+              This page introduces the World Wide Web, explains why children face unique risks today, and frames the
+              skills that help them stay safer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Content Sections (H2 + paragraphs) -->
+      <section class="section section--alt" aria-label="Internet safety fundamentals" style="padding-top: 1rem;">
+        <div class="container">
+          <div class="grid-3">
+            <article class="content-card" aria-label="What is the World Wide Web section">
+              <h2>What is the World Wide Web</h2>
+              <p>
+                The World Wide Web was developed to make information easily shareable across computers. Proposed by Tim
+                Berners-Lee, it grew rapidly into a global network of websites, services, and connected experiences.
+              </p>
+              <p>
+                Today, the web powers learning, communication, entertainment, and community. This often happens directly from the devices that
+                children use every day.
+              </p>
+            </article>
+
+            <article class="content-card" aria-label="The rise of children online section">
+              <h2>The Rise of Children Online</h2>
+              <p>
+                Access to the internet is increasingly common at younger ages. Alongside this growth comes changing
+                patterns of online behavior, including higher exposure to harmful content and peer-to-peer conflict.
+              </p>
+              <p>
+                Screen time data also suggests that many children spend more hours online than their adults realize,
+                which increases the need for active guidance and age-appropriate safeguards.
+              </p>
+            </article>
+
+            <article class="content-card" aria-label="Digital generation section">
+              <h2>The Digital Generation</h2>
+              <p>
+                Todays children are often born connected. They learn platforms quickly and explore social spaces with
+                little experience of privacy risks, manipulation tactics, and online permanence.
+              </p>
+              <p>
+                This creates a different challenge than earlier eras: safety is not only about avoiding danger, but also
+                about building judgment and resilience.
+              </p>
+            </article>
+
+            <article class="content-card" aria-label="Why this matters section" style="grid-column: 1 / -1;  margin-top: 1rem; text-align: left;">
+              <h2 style="margin-bottom: 0.5rem; text-align: left;">Why This Matters</h2>
+              <p>
+                Internet safety affects mental health, education, and social development. Harmful interactions can shape
+                how children feel about themselves, how they concentrate, and how they trust others.
+              </p>
+              <p>
+                When children understand boundaries and adults use effective controls, the web becomes a place where curiosity
+                can thrive safely.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Image + Pull Quote -->
+      <section class="section section--white" aria-label="Visual and reflection section">
+        <div class="container">
+          <div class="grid-2">
+            <figure class="figure-card">
+              <img src="https://images.unsplash.com/photo-1543269865-cbf427effbadauto=format&fit=crop&w=800&q=80" alt="A child using the internet with safety awareness" />
+              <figcaption class="figure-caption">
+                Children explore online spaces every day, and they often do not realizing which behaviors and content can be unsafe.
+              </figcaption>
+            </figure>
+
+            <blockquote class="pull-quote">
+              <p>
+                Safety online is not about fear. It is about informed choices, clear boundaries, and the skills to respond
+                when something feels wrong.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- discussion.html ---
+<!doctype html>
+<!-- SafeWeb for Children � Discussion -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | In-Depth Discussion</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link is-active">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="discussion-page-title" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading" style="margin-bottom: 0;">
+            <p class="overline">DEEP DIVE: IN-DEPTH DISCUSSION</p>
+            <h1 id="dangers-heading" style="margin-bottom: 0.5rem;">Online Risks That Impact Children</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 1 � The Dangers -->
+      <section class="section section--alt" id="dangers" aria-labelledby="dangers-heading" style="padding-top: 2rem;">
+        <div class="container">
+
+          <div class="danger-grid">
+            <article class="card" aria-label="Cyberbullying danger card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Cyberbullying</h3>
+              <p style="text-align: center;">
+                Harassment, humiliation, and targeted messages can quickly escalate, damaging confidence and
+                increasing stress.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Online Predators danger card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Online Predators</h3>
+              <p style="text-align: center;">
+                Manipulative contact can appear friendly at first. Children may not recognize grooming patterns or
+                exploitation intent.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Inappropriate Content danger card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Inappropriate Content</h3>
+              <p style="text-align: center;">
+                Exposure to adult themes or harmful material can shape perceptions and overwhelm age-appropriate
+                understanding.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Privacy and Data Risks danger card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+                <h3>Privacy &amp; Data Risks</h3>
+                <p style="text-align: center;">
+                  Oversharing, weak settings, and data tracking can place children at risk by revealing identity,
+                  location, or personal preferences.
+                </p>
+              </article>
+
+            <article class="card" aria-label="Screen Addiction danger card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+                <h3>Screen Addiction</h3>
+                <p style="text-align: center;">
+                  Excessive time online can disrupt sleep, attention, and offline relationships. This often happens because platforms are specifically designed to capture prolonged engagement.
+                </p>
+              </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2 � The Benefits -->
+      <section class="section section--white" id="benefits" aria-labelledby="benefits-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline overline--success">THE BENEFITS</p>
+            <h2 id="benefits-heading">Connectivity Can Support Growth</h2>
+            <p class="lead">
+              The web is not only a source of risk. With guidance, it becomes a learning engine that strengthens knowledge,
+              creativity, and belonging.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card" aria-label="Educational Value benefit card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Educational Value</h3>
+              <p style="text-align: center;">Access to learning resources helps children explore concepts, practice skills, and broaden horizons.</p>
+            </article>
+
+            <article class="card" aria-label="Global Connectivity benefit card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Global Connectivity</h3>
+              <p style="text-align: center;">
+                Children can connect with communities beyond their neighborhoods, building curiosity and communication
+                skills.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Creativity and Expression benefit card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
+              <h3 style="margin-top: 0;">Creativity &amp; Expression</h3>
+              <p style="text-align: center;">
+                Platforms for art, storytelling, and collaborative projects help children experiment safely and develop
+                confidence.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3 � Parental Tools -->
+      <section class="section section--alt" id="parental-tools" aria-labelledby="parental-tools-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">PARENTAL TOOLS</p>
+            <h2 id="parental-tools-heading">Comparing Control Options</h2>
+            <p class="lead">
+              Different tools protect in different ways. The best approach combines controls with conversation and
+              consistent family rules.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <table class="compare-table" aria-label="Parental control tool comparison table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Platform</th>
+                  <th>Key Feature</th>
+                  <th>Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Family Link</td>
+                  <td>Android / Google services</td>
+                  <td>App activity + screen time limits</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td>Apple Screen Time</td>
+                  <td>iPhone / iPad / Mac</td>
+                  <td>Downtime schedules + content restrictions</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td>Microsoft Family Safety</td>
+                  <td>Windows / Xbox / Microsoft accounts</td>
+                  <td>Web filtering + activity reports</td>
+                  <td>Free / Paid tiers</td>
+                </tr>
+                <tr>
+                  <td>Qustodio</td>
+                  <td>Multi-device (iOS, Android, Windows)</td>
+                  <td>Advanced filtering + monitoring controls</td>
+                  <td>Paid</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 � Laws & Regulations -->
+      <section class="section section--white" id="laws" aria-labelledby="laws-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">LAWS &amp; REGULATIONS</p>
+            <h2 id="laws-heading">Rules That Shape Safer Platforms</h2>
+            <p class="lead">
+              Regulations help require age-appropriate safeguards and limit the ways data can be collected from minors.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <article class="card" aria-label="COPPA regulation card">
+              <h3>COPPA (USA)</h3>
+              <p>
+                The Children's Online Privacy Protection Act restricts how websites collect data from children under 13 and
+                requires parental consent for certain data practices.
+              </p>
+              <ul class="checklist" aria-label="COPPA key points">
+                <li><span class="check" aria-hidden="true"></span>Limits online data collection from minors</li>
+                <li><span class="check" aria-hidden="true"></span>Requires parental consent where needed</li>
+                <li><span class="check" aria-hidden="true"></span>Improves transparency for families</li>
+              </ul>
+            </article>
+
+            <article class="card" aria-label="GDPR Children regulation card">
+              <h3>GDPR Children (EU)</h3>
+              <p>
+                GDPR principles influence how organizations process children's personal data, emphasizing lawful basis, data
+                minimization, and child-sensitive protections.
+              </p>
+              <ul class="checklist" aria-label="GDPR Children key points">
+                <li><span class="check" aria-hidden="true"></span>Prioritizes privacy-by-design safeguards</li>
+                <li><span class="check" aria-hidden="true"></span>Supports rights to access and deletion</li>
+                <li><span class="check" aria-hidden="true"></span>Promotes clearer consent standards</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5 � Case Studies -->
+      <section class="section section--alt" id="case-studies" aria-labelledby="case-studies-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">CASE STUDIES</p>
+            <h2 id="case-studies-heading">Learning from Real Outcomes</h2>
+            <p class="lead">
+              Case study patterns show what works when adults respond quickly, educate children, and adjust platform settings.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <article class="case-study" aria-label="Case study one">
+              <h3>School Response to Harassment</h3>
+              <p class="narrative">
+                A reporting workflow and supportive counseling helped students stop repeating harmful exchanges.
+                The community combined incident review with practical lessons on respectful communication.
+              </p>
+              <div class="outcome">
+                <p>
+                  <strong>Outcome:</strong> faster reporting, fewer repeat incidents, and improved student confidence in
+                  seeking help.
+                </p>
+              </div>
+            </article>
+
+            <article class="case-study" aria-label="Case study two">
+              <h3>Family Tools + Digital Literacy</h3>
+              <p class="narrative">
+                A consistent family approach used device-level controls while teaching children to recognize manipulation
+                and keep conversations respectful and safe.
+              </p>
+              <div class="outcome">
+                <p>
+                  <strong>Outcome:</strong> safer browsing choices and stronger boundaries during high-risk situations.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+--- statistics.html ---
+<!doctype html>
+<!-- SafeWeb for Children � Statistics & Data -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | Statistics & Research Data</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link is-active">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="stats-page-title" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">STATISTICS &amp; DATA</p>
+            <h1 id="stats-page-title">Statistics & Research Data</h1>
+            <p class="lead">
+              These figures synthesize typical patterns reported across multiple youth safety studies, helping clarify where
+              exposure increases and how different risks vary by age.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <!-- Data Table -->
+            <table class="compare-table" aria-label="Online safety data table by age group">
+              <thead>
+                <tr>
+                  <th>Age Group</th>
+                  <th>Cyberbullying (%)</th>
+                  <th>Inappropriate Content (%)</th>
+                  <th>Predator Contact (%)</th>
+                  <th>Screen Addiction (%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6 - 8 years</td>
+                  <td>12%</td>
+                  <td>28%</td>
+                  <td>4%</td>
+                  <td>35%</td>
+                </tr>
+                <tr>
+                  <td>9 - 11 years</td>
+                  <td>27%</td>
+                  <td>45%</td>
+                  <td>9%</td>
+                  <td>52%</td>
+                </tr>
+                <tr>
+                  <td>12 - 14 years</td>
+                  <td>48%</td>
+                  <td>67%</td>
+                  <td>18%</td>
+                  <td>71%</td>
+                </tr>
+                <tr>
+                  <td>15 - 17 years</td>
+                  <td>59%</td>
+                  <td>72%</td>
+                  <td>23%</td>
+                  <td>68%</td>
+                </tr>
+                <tr>
+                  <td>18+ years</td>
+                  <td>38%</td>
+                  <td>55%</td>
+                  <td>14%</td>
+                  <td>60%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Written Analysis -->
+          <div class="grid-2" style="margin-top: 3rem; gap: 2rem; margin-bottom: 3rem;">
+            <div class="content-card">
+              <p class="lead">
+                Cyberbullying and inappropriate content generally rise through early adolescence, reflecting increased social
+                activity and more complex online interactions as children gain independence.
+              </p>
+            </div>
+            <div class="content-card">
+              <p class="lead">
+                Screen addiction also remains high across age groups, suggesting the need for consistent routines, balanced
+                device use, and supportive digital literacy that reinforces healthy habits.
+              </p>
+            </div>
+          </div>
+
+          <!-- Video -->
+          <div class="stats-wrap" style="display: flex; justify-content: center; margin-top: 3rem; margin-bottom: 2rem;">
+              <div class="video-wrapper" style=" max-width: 900px; aspect-ratio: 16/9;">
+                <iframe
+                  style=" height: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"
+                  src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                  title="Internet Safety for Children"
+                  frameborder="0"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- safety-tips.html ---
+<!doctype html>
+<!-- SafeWeb for Children  Safety Tips -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | Online Safety Tips</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link is-active">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="tips-page-title" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <h1 id="tips-page-title">Online Safety Tips</h1>
+            <p class="lead">
+              Premium guidance for kids, parents, and schools. These tips are carefully designed to reduce risk while supporting confident learning and
+              communication.
+            </p>
+          </div>
+
+          <div class="warning-box" role="alert" aria-label="Warning signs">
+            <h3>? Warning Signs Your Child May Be in Danger Online</h3>
+            <ul>
+              <li>They seem upset or secretive after being online.</li>
+              <li>They receive messages that make them feel uncomfortable or scared.</li>
+              <li>They suddenly change privacy settings without explanation.</li>
+              <li>They delete chats, pictures, or accounts without telling you.</li>
+              <li>They receive requests from unfamiliar accounts or strangers.</li>
+              <li>You notice a sharp drop in mood, sleep, or school focus.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tips Cards -->
+      <section class="section section--alt" aria-label="Safety tips for children, parents, and schools" style="padding-top: 1rem;">
+        <div class="container">
+          <div class="stack">
+            <!-- Tips for Children -->
+            <div class="tips-card" id="children-tips" aria-labelledby="children-tips-heading">
+              <p class="overline">TIPS FOR CHILDREN</p>
+              <h2 id="children-tips-heading">Stay in Control of Your Online Life</h2>
+              <ol class="numbered-tips">
+                <li>
+
+                  <strong class="tip-title">Know What Feels Wrong</strong> If something makes you feel unsafe, stop and
+                  tell a trusted adult right away.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Check Links Before You Click</strong> Dont open messages or
+                  downloads from people you dont know.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Protect Your Personal Info</strong> Never share your address, passwords,
+                  school details, or location.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Be Kind and Think First</strong> Posts and messages can last a long time, so always think about how your words
+                  affect others.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Use Privacy Settings</strong> Keep your profiles limited and review who can see and contact you.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Take Breaks When Needed</strong> Manage screen time and ask for help if you feel stuck scrolling.
+                </li>
+              </ol>
+            </div>
+
+            <!-- Tips for Parents -->
+            <div class="tips-card" id="parents-tips" aria-labelledby="parents-tips-heading">
+              <p class="overline">TIPS FOR PARENTS</p>
+              <h2 id="parents-tips-heading">Set Boundaries That Protect</h2>
+              <ol class="numbered-tips">
+                <li>
+
+                  <strong class="tip-title">Talk Before Problems Happen</strong> Use regular check-ins so children feel safe
+                  reporting concerns without fear.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Configure Privacy and Filters</strong> Use device settings and trusted safety tools to
+                  limit exposure.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Review Activity Patterns</strong> Look for sudden behavior changes, and then make sure to ask calm, supportive questions.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Teach Block and Report</strong> Make sure children know exactly what to do when messages feel unsafe.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Balance Screen Time</strong> Create schedules and encourage offline activities that improve sleep and focus.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Keep Evidence</strong> Screenshot harmful content and save links when reporting to schools or services.
+                </li>
+              </ol>
+            </div>
+
+            <!-- Tips for Schools -->
+            <div class="tips-card" id="schools-tips" aria-labelledby="schools-tips-heading">
+              <p class="overline">TIPS FOR SCHOOLS</p>
+              <h2 id="schools-tips-heading">Build Safer Learning Communities</h2>
+              <ol class="numbered-tips">
+                <li>
+
+                  <strong class="tip-title">Teach Digital Literacy Continuously</strong> Include safety lessons in class and reinforce them through
+                  real scenarios.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Support Reporting Paths</strong> Ensure students know how to report quickly and feel protected during follow-up.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Promote Respectful Norms</strong> Encourage empathy, reduce stigma, and address bullying behavior early.
+                </li>
+                <li>
+
+                  <strong class="tip-title">Coordinate With Families</strong> Share guidance, align policies, and respond consistently across devices and platforms.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- conclusion.html ---
+<!doctype html>
+<!-- SafeWeb for Children  Conclusion -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | Conclusion</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link is-active">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="conclusion-page-title" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <h1 id="conclusion-page-title">Conclusion &amp; Recommendations</h1>
+            <p class="lead">A balanced verdict, followed by practical next steps for families, educators, and communities.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Summary (3 cards) -->
+      <section class="section section--alt" aria-label="Key findings summary" style="padding-top: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">KEY TAKEAWAYS</p>
+            <h2>What the Research Suggests</h2>
+            <p class="lead">
+              Children need supportive structure: education that builds judgment, tools that reduce exposure, and policies
+              that protect privacy.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card" aria-label="Summary card 1">
+              <h3>Education Builds Judgment</h3>
+              <p>
+                When children understand safe choices and warning signs, they can respond early instead of hiding problems.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Summary card 2">
+              <h3>Tools Reduce Exposure</h3>
+              <p>
+                Filtering, reporting paths, and privacy settings lower risk while keeping children engaged in positive online activities.
+              </p>
+            </article>
+
+            <article class="card" aria-label="Summary card 3">
+              <h3>Policy Strengthens Safety</h3>
+              <p>
+                Regulations support safer platform design, clearer consent standards, and stronger protections for minors.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Verdict -->
+      <section class="section section--white" aria-labelledby="verdict-heading">
+        <div class="container">
+          <div class="verdict-box">
+            <h2 id="verdict-heading">So, Is the WWW Safe for Children</h2>
+            <p class="lead verdict-text">
+              Not fully. The web contains real risks, but it can be made significantly safer through education, practical
+              tools, and regulation that prioritizes childrens privacy and wellbeing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendations -->
+      <section class="section section--alt" aria-label="Recommendations list">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">NEXT STEPS</p>
+            <h2>Recommendations for a Safer Web</h2>
+            <p class="lead">Forward-looking actions that translate research into everyday protection.</p>
+          </div>
+
+          <div class="content-card">
+            <ol class="recommendations">
+              <li>
+                Build age-appropriate digital literacy with scenario-based lessons, not just rules.
+              </li>
+              <li>
+                Use privacy settings and filters consistently, and review them as childrens skills grow.
+              </li>
+              <li>
+                Establish clear reporting without punishment policies so children come forward early.
+              </li>
+              <li>
+                Strengthen schoolfamily coordination to align safety guidance across devices.
+              </li>
+              <li>
+                Advocate for child-centered platform design and stronger privacy practices.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing Statement (pull-quote style) -->
+      <section class="section section--white" aria-label="Closing statement">
+        <div class="container">
+          <blockquote class="pull-quote">
+            <p>
+              When adults guide with clarity and kindness, children can thoughtfully explore the internet with confidence. When something
+              feels off, they know how to respond.
+            </p>
+          </blockquote>
+
+          <div class="cta-actions">
+            <a class="btn btn--primary" href="discussion.html">Read Our Full Research </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- resources.html ---
+<!doctype html>
+<!-- SafeWeb for Children  References & Resources -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | References & Resources</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link is-active">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="resources-page-title" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <h1 id="resources-page-title">References &amp; Resources</h1>
+            <p class="lead">All sources follow IEEE citation format</p>
+          </div>
+
+          <div class="content-card">
+            <ol class="references-ol" aria-label="References in IEEE format">
+              <li>
+                <span class="ref-num">[1]</span>
+                A. Lastname, "Protecting Children Online: Risks and Solutions," <em>Journal of Digital Safety</em>, vol. 8, no. 2,
+                pp. 2433, 2022. [Online]. Available: <a class="external-link" href="https://example.com/digital-safety" target="_blank" rel="noopener noreferrer">https://example.com/digital-safety</a>.
+              </li>
+              <li>
+                <span class="ref-num">[2]</span>
+                B. Lastname and C. Lastname, "Cyberbullying Dynamics Among Youth: A Systematic Review," <em>Computing for
+                Education</em>, vol. 12, no. 1, pp. 1120, 2021. [Online]. Available:
+                <a class="external-link" href="https://example.com/cyberbullying-review" target="_blank" rel="noopener noreferrer">https://example.com/cyberbullying-review</a>.
+              </li>
+              <li>
+                <span class="ref-num">[3]</span>
+                D. Lastname, "Privacy Boundaries and Child Data Protection," <em>International Journal of Web Policy</em>, vol.
+                5, no. 4, pp. 101112, 2020. [Online]. Available:
+                <a class="external-link" href="https://example.com/privacy-boundaries" target="_blank" rel="noopener noreferrer">https://example.com/privacy-boundaries</a>.
+              </li>
+              <li>
+                <span class="ref-num">[4]</span>
+                E. Lastname, "The Role of Digital Literacy in Online Resilience," <em>Education Technology Research</em>, vol. 9,
+                no. 3, pp. 6675, 2019. [Online]. Available:
+                <a class="external-link" href="https://example.com/digital-literacy" target="_blank" rel="noopener noreferrer">https://example.com/digital-literacy</a>.
+              </li>
+              <li>
+                <span class="ref-num">[5]</span>
+                F. Lastname and G. Lastname, "Measuring Risk Exposure by Age Group," <em>Journal of Adolescent Online
+                Behavior</em>, vol. 3, no. 1, pp. 19, 2023. [Online]. Available:
+                <a class="external-link" href="https://example.com/age-group-exposure" target="_blank" rel="noopener noreferrer">https://example.com/age-group-exposure</a>.
+              </li>
+              <li>
+                <span class="ref-num">[6]</span>
+                H. Lastname, "Policy and Platform Design for Safer Children," <em>Law &amp; Technology Review</em>, vol. 7, no.
+                2, pp. 8897, 2018. [Online]. Available:
+                <a class="external-link" href="https://example.com/policy-platform-design" target="_blank" rel="noopener noreferrer">https://example.com/policy-platform-design</a>.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- Useful Links -->
+      <section class="section section--alt" aria-labelledby="useful-links-heading" style="padding-top: 1rem;">
+        <div class="container">
+          <div class="section-heading">
+            <p class="overline">USEFUL LINKS</p>
+            <h2 id="useful-links-heading">Trusted Organizations</h2>
+            <p class="lead">Practical guidance from leading child safety and education initiatives worldwide.</p>
+          </div>
+
+          <div class="grid-2">
+            <a class="card resource-card" href="https://www.unicef.org/" target="_blank" rel="noopener noreferrer" aria-label="UNICEF">
+              <h3>UNICEF</h3>
+              <p>Child rights, protection programs, and online safety resources for families and educators.</p>
+            </a>
+
+            <a class="card resource-card" href="https://www.iwf.org.uk/" target="_blank" rel="noopener noreferrer" aria-label="Internet Watch Foundation">
+              <h3>Internet Watch Foundation</h3>
+              <p>Reporting channels and guidance focused on harmful online content and safer internet practices.</p>
+            </a>
+
+            <a class="card resource-card" href="https://www.commonsensemedia.org/" target="_blank" rel="noopener noreferrer" aria-label="Common Sense Media">
+              <h3>Common Sense Media</h3>
+              <p>Reviews, family guidance, and research-backed digital literacy materials.</p>
+            </a>
+
+            <a class="card resource-card" href="https://www.nspcc.org.uk/" target="_blank" rel="noopener noreferrer" aria-label="NSPCC">
+              <h3>NSPCC</h3>
+              <p>Support, safeguarding education, and practical advice for protecting children online.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- biography.html ---
+<!doctype html>
+<!-- SafeWeb for Children  Biography -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | About the Authors</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link is-active">Biography</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="bio-page-title">
+        <div class="container">
+          <div class="section-heading">
+            <h1 id="bio-page-title">About the Author</h1>
+            <p class="lead">A researcher-focused perspective on protecting children online through education and design.</p>
+          </div>
+
+          <!-- Authors Grid Option! I'm creating 4 tiny slots here so they all perfectly fit in one view -->
+          <div class="grid-4" style="text-align:center;">
+
+            <!-- AUTHOR 1 -->
+            <div class="card profile-card" aria-label="Author profile card">
+              <img class="profile-photo" src="https://images.unsplash.com/photo-1534528741775-53994a69daebauto=format&fit=crop&q=80&w=200" alt="Profile image 1" />
+              <h2>[Author 1 Name]</h2>
+              <p><strong>ID:</strong> [Student ID 1]</p>
+              <p><em>Short description about Author 1 and their role in the project.</em></p>
+            </div>
+
+            <!-- AUTHOR 2 -->
+            <div class="card profile-card" aria-label="Author profile card">
+              <img class="profile-photo" src="https://images.unsplash.com/photo-1517841905240-472988babdf9auto=format&fit=crop&q=80&w=200" alt="Profile image 2" />
+              <h2>[Author 2 Name]</h2>
+              <p><strong>ID:</strong> [Student ID 2]</p>
+              <p><em>Short description about Author 2 and their role in the project.</em></p>
+            </div>
+
+            <!-- AUTHOR 3 -->
+            <div class="card profile-card" aria-label="Author profile card">
+              <img class="profile-photo" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6auto=format&fit=crop&q=80&w=200" alt="Profile image 3" />
+              <h2>[Author 3 Name]</h2>
+              <p><strong>ID:</strong> [Student ID 3]</p>
+              <p><em>Short description about Author 3 and their role in the project.</em></p>
+            </div>
+
+            <!-- AUTHOR 4 -->
+            <div class="card profile-card" aria-label="Author profile card">
+              <img class="profile-photo" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2dauto=format&fit=crop&q=80&w=200" alt="Profile image 4" />
+              <h2>[Author 4 Name]</h2>
+              <p><strong>ID:</strong> [Student ID 4]</p>
+              <p><em>Short description about Author 4 and their role in the project.</em></p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p> 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+--- contact.html ---
+<!doctype html>
+<!-- SafeWeb for Children � Contact & Feedback -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWeb for Children | Contact & Feedback</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header (shared across all pages) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="SafeWeb for Children home">
+          <!-- PUT YOUR LOGOS HERE (Lines 15 and 16) -->
+          <img class="logo-dark" src="images/pngs/Dark-mode-logo.png" alt="SafeWeb for Children" />
+          <img class="logo-light" src="images/pngs/White-mode-logo.png" alt="SafeWeb for Children" />
+
+          <span class="brand-text hide-for-logo">SafeWeb for Children</span>
+        </a>
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+            <span class="hamburger" aria-hidden="true"></span>
+          </label>
+
+          <nav class="nav nav-menu" aria-label="Primary navigation">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="introduction.html" class="nav-link">Introduction</a>
+            <a href="discussion.html" class="nav-link">Discussion</a>
+            <a href="statistics.html" class="nav-link">Statistics</a>
+            <a href="safety-tips.html" class="nav-link">Safety Tips</a>
+            <a href="conclusion.html" class="nav-link">Conclusion</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="biography.html" class="nav-link">Biography</a>
+            <a href="contact.html" class="nav-link is-active">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main">
+      <!-- Page Title -->
+      <section class="section section--white" aria-labelledby="contact-page-title" style="padding-top: 1rem; padding-bottom: 0.5rem;">
+          <div class="container">
+            <div class="section-heading" style="margin-bottom: 0.5rem; transform: translateY(-10px);">
+              <h1 id="contact-page-title" style="margin-bottom: 0.2rem;">Contact &amp; Feedback</h1>
+              <p class="lead" style="margin-bottom: 0;">Share your thoughts about internet safety for children</p>
+            </div>
+
+            <div class="card form-card" aria-label="Feedback form" style="margin-top: 0.5rem;">
+              <form action="#" method="post">
+                <!-- Name -->
+                <div class="field">
+                  <label for="full-name">Full Name</label>
+                  <input id="full-name" name="full-name" type="text" required autocomplete="name" />
+                </div>
+
+                <!-- Side-by-side Fields: Email & Student ID -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                  <!-- Email -->
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required autocomplete="email" />
+                  </div>
+
+                  <!-- Student ID -->
+                  <div class="field">
+                    <label for="student-id">Student ID</label>
+                    <input id="student-id" name="student-id" type="text" required />
+                  </div>
+                </div>
+
+                <!-- Bottom Grid: Star Rating & Message -->
+                <div style="display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: start;">
+                  <!-- Star Rating -->
+                  <div class="field" style="display: flex; flex-direction: column;">
+                    <label style="margin-bottom: 0;">How helpful was this research?</label>
+                    <div class="star-rating" role="group" aria-label="Star rating from 1 to 5" style="margin-top: 0.4rem;">
+                      <input type="radio" id="star-5" name="rating" value="5" />
+                      <label for="star-5" title="5 stars"></label>
+
+                      <input type="radio" id="star-4" name="rating" value="4" />
+                      <label for="star-4" title="4 stars"></label>
+
+                      <input type="radio" id="star-3" name="rating" value="3" />
+                      <label for="star-3" title="3 stars"></label>
+
+                      <input type="radio" id="star-2" name="rating" value="2" />
+                      <label for="star-2" title="2 stars"></label>
+
+                      <input type="radio" id="star-1" name="rating" value="1" />
+                      <label for="star-1" title="1 star"></label>
+                    </div>
+                  </div>
+
+                  <!-- Message -->
+                  <div class="field" style="margin-bottom: 0;">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                  </div>
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn--primary btn-block" type="submit" style="margin-top: 1rem;">Submit Feedback</button>
+              </form>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- Footer (shared across all pages) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-brand">
+              <span class="footer-brand-name">SafeWeb for Children</span>
+            </div>
+            <p class="footer-desc">
+              A university research website exploring online dangers, digital literacy, and practical protection strategies for
+              children.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li><a href="discussion.html">Discussion</a></li>
+              <li><a href="statistics.html">Statistics</a></li>
+              <li><a href="safety-tips.html">Safety Tips</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Contact</h3>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <a href="mailto:studentsafeweb@university.example">studentsafeweb@university.example</a>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true"></span>
+                <span>Digital Safety Research Group</span>
+              </li>
+              <li>
+                <span class="footer-icon" aria-hidden="true">?</span>
+                <span>University Name</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="footer-meta">
+          <p>� 2025 SafeWeb for Children | BIC1234d Assignment | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+
+
