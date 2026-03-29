@@ -1,5 +1,4 @@
-﻿
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
 
     const header = document.querySelector('.site-header');
     window.addEventListener('scroll', () => {
@@ -12,14 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observerOptions = {
         threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px" 
+        rootMargin: "0px 0px -50px 0px"
     };
 
     const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('active'); 
-                scrollObserver.unobserve(entry.target); 
+                entry.target.classList.add('active');
+                scrollObserver.unobserve(entry.target);
             }
         });
     }, observerOptions);
@@ -48,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const checkbox = themeWrapper.querySelector('#theme-switch');
         const slidebar = themeWrapper.querySelector('.modern-theme-slider');
-        
+
         slidebar.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
@@ -94,8 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const elementsToReveal = document.querySelectorAll('.card, .content-card, .section-heading, .stat, .hero-content > *');
     elementsToReveal.forEach((el, i) => {
         el.classList.add('reveal');
-        
-        el.style.transitionDelay = ""+ (i % 3) * 0.15 +"s"; 
+
+        el.style.transitionDelay = "" + (i % 3) * 0.15 + "s";
         scrollObserver.observe(el);
     });
 
@@ -103,10 +102,10 @@ document.addEventListener('DOMContentLoaded', () => {
     cards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
-            
-            const x = e.clientX - rect.left; 
-            const y = e.clientY - rect.top;  
-            
+
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
 
@@ -124,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     if (form) {
         form.addEventListener('submit', (e) => {
-            e.preventDefault(); 
+            e.preventDefault();
             const btn = form.querySelector('button[type="submit"]');
             btn.innerText = 'Transmitting Data...';
             btn.style.opacity = '0.7';
@@ -141,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const initHeroBackground = () => {
     const heroShape = document.querySelector('.hero-shape');
     if (!heroShape) return;
-    
+
     heroShape.innerHTML = '';
     const canvas = document.createElement('canvas');
     canvas.style.position = 'absolute';
@@ -150,22 +149,26 @@ const initHeroBackground = () => {
     canvas.style.width = '100%';
     canvas.style.height = '100%';
     canvas.style.zIndex = '0';
-    canvas.style.pointerEvents = 'none'; 
+    canvas.style.pointerEvents = 'none';
 
     canvas.style.maskImage = 'linear-gradient(to bottom, black 0%, black 50%, transparent 100%)';
     canvas.style.webkitMaskImage = 'linear-gradient(to bottom, black 0%, black 50%, transparent 100%)';
-    
+
     heroShape.appendChild(canvas);
-    
+
     const ctx = canvas.getContext('2d');
     let width, height;
     let particles = [];
-    let mouse = { x: null, y: null, radius: 250 };
+    let mouse = {
+        x: null,
+        y: null,
+        radius: 250
+    };
 
     const resize = () => {
         width = canvas.width = heroShape.offsetWidth;
         height = canvas.height = heroShape.offsetHeight;
-        init(); 
+        init();
     };
     window.addEventListener('resize', resize);
 
@@ -179,7 +182,7 @@ const initHeroBackground = () => {
         constructor() {
             this.x = Math.random() * width;
             this.y = Math.random() * height;
-            this.size = Math.random() * 1.5 + 0.5; 
+            this.size = Math.random() * 1.5 + 0.5;
             this.baseX = this.x;
             this.baseY = this.y;
             this.density = (Math.random() * 20) + 1;
@@ -188,11 +191,11 @@ const initHeroBackground = () => {
         draw() {
             let isLightMode = document.documentElement.getAttribute('data-theme') === 'light';
 
-            ctx.fillStyle = this.isBlue 
-                ? (isLightMode ? '#0284c7' : '#38bdf8') 
-                : (isLightMode ? '#9333ea' : '#c084fc');
-            ctx.globalAlpha = isLightMode ? 0.35 : 0.6; 
-            
+            ctx.fillStyle = this.isBlue ?
+                (isLightMode ? '#0284c7' : '#38bdf8') :
+                (isLightMode ? '#9333ea' : '#c084fc');
+            ctx.globalAlpha = isLightMode ? 0.35 : 0.6;
+
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
             ctx.closePath();
@@ -200,7 +203,7 @@ const initHeroBackground = () => {
             ctx.globalAlpha = 1.0;
         }
         update() {
-            
+
             if (mouse.x != null && mouse.y != null) {
                 let dx = mouse.x - this.x;
                 let dy = mouse.y - this.y;
@@ -219,7 +222,7 @@ const initHeroBackground = () => {
                 if (this.x !== this.baseX) this.x -= (this.x - this.baseX) / 15;
                 if (this.y !== this.baseY) this.y -= (this.y - this.baseY) / 15;
             }
-            
+
             this.baseY -= 0.2;
             this.baseX += (Math.random() - 0.5) * 0.3;
             if (this.baseY < -50) {
@@ -233,26 +236,26 @@ const initHeroBackground = () => {
 
     const init = () => {
         particles = [];
-        let n = (width * height) / 14000; 
+        let n = (width * height) / 14000;
         for (let i = 0; i < n; i++) particles.push(new Particle());
     };
 
     const animate = () => {
         ctx.clearRect(0, 0, width, height);
         let isLightMode = document.documentElement.getAttribute('data-theme') === 'light';
-        let lineRgb = isLightMode ? '15, 23, 42' : '226, 232, 240'; 
-        
+        let lineRgb = isLightMode ? '15, 23, 42' : '226, 232, 240';
+
         for (let i = 0; i < particles.length; i++) {
             particles[i].update();
             particles[i].draw();
-            
+
             for (let j = i; j < particles.length; j++) {
                 let dx = particles[i].x - particles[j].x;
                 let dy = particles[i].y - particles[j].y;
                 let distance = dx * dx + dy * dy;
                 if (distance < 7000) {
                     ctx.beginPath();
-                    let opacity = 0.12 - distance/58000; 
+                    let opacity = 0.12 - distance / 58000;
                     ctx.strokeStyle = `rgba(${lineRgb}, ${Math.max(0, opacity)})`;
                     ctx.lineWidth = 0.8;
                     ctx.moveTo(particles[i].x, particles[i].y);
@@ -263,8 +266,7 @@ const initHeroBackground = () => {
         }
         requestAnimationFrame(animate);
     };
-    resize(); 
+    resize();
     animate();
 };
 initHeroBackground();
-
